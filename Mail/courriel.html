@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blueMail</title>
+	<link rel="icon" href="monsteraIcon.png">
+	<link rel="stylesheet" href="courriel.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Climate Crisis' >
+</head>
+<body>
+	<header><!--------------------------------------------- HEADER WITH NAVIGATION BAR ---------------------------------------------->
+		<h1><span>blue</span>Mail</h1>
+		<nav>
+			<ul>
+				<li><a href="#" onclick="showContent('compose');">Compose</a></li>
+				<li><a href="#" onclick="showContent('inbox');">Inbox</a></li>
+				<li><a id="toContactsDiv" href="#" onclick="showContent('contacts'); hideOptionButtons();">Contacts</a></li>
+				<div id="search-container">
+					<input id="search-bar" placeholder="Filter here...">				
+				</div>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="compose" class="content"><!------------------------- COMPOSE DIVISION ---------------------------------------------->
+			<h2><span>com</span>pose</h2>
+			<form id="compose-form">
+				<label for="to">To:</label>
+				<input class="formInput" type="email" id="to" name="to" required><br><br>
+				<label for="subject">Subject:</label>
+				<input class="formInput" type="text" id="subject" name="subject" required><br><br>
+				<label for="message">Message:</label><br>
+				<textarea class="formInput" id="message" name="message" rows="10" cols="50"></textarea><br><br>
+				<button class="formButtons" id="send-button">Send</button>
+				<button class="formButtons" id="cancelCompose-button" onclick="cancelMessage()">Cancel</button>
+			</form>
+		</div>
+		<div id="inbox" class="content"><!----------------------------- INBOX DIVISION ---------------------------------------------->
+			<h2><span>in</span>box</h2>
+			<ul id="emails-list" class="email-list"></ul>
+		</div>
+		<div id="contacts" class="content"><!-------------------------- CONTACT DIVISION -------------------------------------------->
+			<h2><span>con</span>tacts</h2>
+			<form id="contact-form" style="display: none;">
+				<label for="name">Name:</label>
+				<input class="formInput" type="text" id="name" name="name" required><br><br>
+				<label for="email">Email:</label>
+				<input class="formInput" type="email" id="email" name="email" required><br><br>
+				<button class="formButtons" id="save-button" type="button" onclick="saveContact()">Save Contact</button>
+				<button class="formButtons" id="cancel-button" type="button" onclick="cancelContact()">Cancel</button>
+			</form>
+			<ul id="contacts-list"></ul>			
+			<button  class="contactButtons" id="messageContact"  onclick="messageContact()">Message</button>			
+			<button  class="contactButtons" id="editContact"  onclick="editContact()">Edit Contact</button>
+			<button  class="contactButtons" id="deleteContact" onclick="deleteContact()">Delete Contact</button>
+			<button  class="contactButtons" id="addContact" onclick="addContact()">Add Contact</button><br><br>
+		</div>
+	</main>
+</body>
+<script src="courriel.js"></script>
+</html>
+
+
