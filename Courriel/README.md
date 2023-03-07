@@ -9,7 +9,7 @@
 
 - CSS : j'ai fait un CSS pouvant faciliment être modifié pour changer de 'theme' global du site si besoin.
 
--JS et HTML : j'ai essayé de les faire courts et sans repetitions, afin qu'ils soient faciles à relire et à modifier.
+- JS et HTML : j'ai essayé de les faire courts et sans repetitions, afin qu'ils soient faciles à relire et à modifier.
 
 - Choix de l'anglais : j'ai décidé de faire le code en anglais pour 2 raisons : d'abord car c'est la langue habituelle d'un code, et ensuite car je veux pouvoir utilisé ce site dans mon futur portfolio, à destination d'employeurs/clients peut-être pas francophone.
 
