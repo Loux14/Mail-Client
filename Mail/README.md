@@ -1,4 +1,4 @@
-                ----------------------------- Projet 1, Technologies internet, Lucas G. -----------------------------
+                ----------------------------- Projet 1, Technologies internet, Loux14. -----------------------------
 
 
 - Pourquoi "blueMail" : les couleurs utilisées au début de mon projet étaient le bleu et le beige. Quand j'ai repensé le visuel, j'ai choisi le vert mais je trouvais l'idée intéressante de garder le mot 'blue' alors qu'il n'y a pas de bleu. Ça apporte une originalité.
