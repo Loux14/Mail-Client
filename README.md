@@ -1,9 +1,9 @@
 # ***Mail Client***
 
 * Prototype
-* Simulate email sending, reading and contacts management.
+* Simulate email sending and reading, or contact management.
 
-Every mail and contact are fakely stored in the local storage.
+Mails and contacts are fakely stored in the local storage.
 
 <img width="1462" alt="screen1" src="https://github.com/Loux14/Mail-Client/assets/122696881/4520d352-7c36-4eed-b094-8c628d957074">
 <img width="1461" alt="screen2" src="https://github.com/Loux14/Mail-Client/assets/122696881/b74476e5-bbb6-40b7-8c70-583e689152ac">
